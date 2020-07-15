@@ -1,4 +1,4 @@
-#My Online Curriculum
+# My Online Curriculum
 This is my online curriculum, check out who I am and a bit of my work!
 
 ## Online Curriculum
