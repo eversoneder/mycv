@@ -74,7 +74,40 @@
 							<article id="work">
 								<h2 class="major">Work</h2>
 
-								<!-- APP #1 START (Workforce Management System) -->
+								<!-- APP #1 START (Event-Driven To-Do List GUI App) -->
+								<p style="text-align: center;">
+									<strong>FIT - Event-Driven Task Management Desktop Application</strong>
+								</p>
+								
+								<p></p>Desktop task management client featuring relational database persistence, event-driven user interactions, and an elastic dark-mode UI.
+								<span class="image main"><img src="images/todo-app-preview.gif" alt="To-Do List Application GUI Preview" /></span>
+								
+								<p style="text-align: justify; text-justify: inter-word;">
+									Built using <b>Python 3, Tkinter, and MySQL</b>, this desktop application provides an intuitive workflow for managing daily tasks and tracking order states. Designed to explore the <b>Event-Driven Programming (EDP)</b> paradigm, the codebase strictly follows the <b>Model-View-Controller (MVC) design pattern</b> to isolate database operations, graphical presentation, and user input controller logic into clear module boundaries.
+								</p>
+								
+								<p style="text-align: justify; text-justify: inter-word;">
+									The application integrates specific design patterns and interactive event handlers:
+									<ul>
+										<li><b>Relational Persistence & Data Integrity</b>: Links directly to a custom MySQL database using <code>mysql.connector</code>. Operations target auto-incrementing primary keys (<code>id</code>) rather than text strings, preventing accidental cross-updates when duplicate task names exist and dynamically tagging matching names with <code>(ID: {id})</code> labels in the GUI.</li>
+										<li><b>Dynamic Event-Driven Interactions</b>: Implements interactive hover states across all buttons using <code>&lt;Enter&gt;</code> and <code>&lt;Leave&gt;</code> mouse event listeners in the controller. The handlers use <code>event.widget</code> to dynamically brighten active button colors (blue <code>#1B8CD8</code> to <code>#57C1FF</code>, red <code>#D9534F</code> to <code>#FF7570</code>) while binding <code>&lt;KeyPress&gt;</code> events to support keyboard shortcuts.</li>
+										<li><b>Elastic UX Design & Defensive Validation</b>: Constructs a responsive multi-panel dashboard utilizing Tkinter's <code>expand=True</code> and <code>fill=BOTH</code> geometry management with a minimum window boundary (<code>860x460</code>). Features input validation gates paired with <code>tkinter.messagebox</code> modals to handle empty inputs or disconnected database instances smoothly.</li>
+									</ul>
+								</p>
+								
+								<p style="text-align: justify; text-justify: inter-word;">
+									This project demonstrates strong practical skills in <b>Python GUI design</b>, <b>Event-Driven Programming (EDP)</b>, <b>relational database architecture</b>, and clean <b>MVC separation of concerns</b>.
+								</p>
+								
+								<p>
+									To explore the repository and project documentation, 
+									<a href="https://github.com/eversoneder/Future-Interactive-Tech_EDP-To-Do-List-GUI-App">
+									click here!
+									</a>
+								</p>
+								<!-- APP #1 END -->
+								
+								<!-- APP #2 START (Workforce Management System) -->
 								<p style="text-align: center;">
 									<strong>WFMS - Workforce Management System Desktop Application</strong>
 								</p>
@@ -105,9 +138,9 @@
 									click here!
 									</a>
 								</p>
-								<!-- APP #1 END -->
+								<!-- APP #2 END -->
 								
-								<!-- APP #2 START -->
+								<!-- APP #3 START -->
 								<p style="text-align: center;">
 								    <strong>Jessica Rossi Beauty - Responsive Booking Website</strong>
 								</p>
@@ -142,9 +175,9 @@
 								    click here!
 								    </a>
 								</p>
-								<!-- APP #2 END -->
+								<!-- APP #3 END -->
 
-								<!-- APP #3 START (Ping Pong Game) -->
+								<!-- APP #4 START (Ping Pong Game) -->
 								<p style="text-align: center;">
 								    <strong>Ping Pong 2D Unity Android Mobile Game</strong>
 								</p>
@@ -179,9 +212,9 @@
 								    click here!
 								    </a>
 								</p>
-								<!-- APP #3 END -->
+								<!-- APP #4 END -->
 								
-								<!-- APP #4 START -->
+								<!-- APP #5 START -->
 							    <p style="text-align: center;">
 							        <strong>Employee Management CRUD System</strong>
 							    </p>
@@ -215,9 +248,9 @@
 							        click here!
 							        </a>
 							    </p>
-							    <!-- APP #4 END -->
+							    <!-- APP #5 END -->
 								
-								<!-- APP #5 START-->
+								<!-- APP #6 START-->
 								<p style="text-align: center;">
 									<strong>Bank Application</strong>
 								</p>
@@ -248,9 +281,9 @@
 									click here!
 									</a>
 								</p>
-								<!-- APP #5 END -->
+								<!-- APP #6 END -->
 								
-								<!-- APP #6 START-->
+								<!-- APP #7 START-->
 								<p style="text-align: center;">
 									<strong>Point of Sale (POS) & Management System</strong>
 								</p>
@@ -276,7 +309,7 @@
 									click here!
 									</a>
 								</p>
-								<!-- APP #6 END -->
+								<!-- APP #7 END -->
 								
 								<p>In case you would like to have a look at my Graphic Design Portifolio <a href="https://www.coroflot.com/EversonSpinola/Graphic-Designer-Portfolio">Click here</a>.</p>
 							</article>
